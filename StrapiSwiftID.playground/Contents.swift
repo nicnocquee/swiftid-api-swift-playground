@@ -1,7 +1,7 @@
 import UIKit
 import Foundation
 
-let baseURL = "https://app.swiftid.dev"
+let baseURL = "https://api.swiftid.dev"
 
 struct ErrorResponse: Decodable {
   struct InnerMessage: Decodable {
